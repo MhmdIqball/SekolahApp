@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_berita"
+            android:icon="@drawable/ic_berita"
+            android:title="Berita Sekolah" />
+        <item
+            android:id="@+id/nav_jadwal"
+            android:icon="@drawable/ic_jadwal"
+            android:title="Jadwal Pelajaran" />
+        <item
+            android:id="@+id/nav_presensi"
+            android:icon="@drawable/ic_presensi"
+            android:title="Absensi Kehadiran" />
+        <item
+            android:id="@+id/nav_nilai"
+            android:icon="@drawable/ic_nilai"
+            android:title="Transkip Nilai" />
+    </group>
+
+    <item android:title="SekolahApps">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+
+</menu>

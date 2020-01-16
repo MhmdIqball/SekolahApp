@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".jadwal.TambahJadwalActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Hari"
+        android:id="@+id/tambah_jadwal_hari"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mata Pelajaram"
+        android:id="@+id/tambah_jadwal_mapel"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Jam"
+        android:id="@+id/tambah_jadwal_jam"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mata Pelajaran"
+        android:id="@+id/tambah_jadwal_mapel2"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Jam"
+        android:id="@+id/tambah_jadwal_jam2"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mata Pelajaram"
+        android:id="@+id/tambah_jadwal_mapel3"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Jam"
+        android:id="@+id/tambah_jadwal_jam3"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mata Pelajaram"
+        android:id="@+id/tambah_jadwal_mapel4"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Jam"
+        android:id="@+id/tambah_jadwal_jam4"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tambah Jadwal"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:backgroundTint="@color/colorAccent"
+        android:id="@+id/tambah_jadwal"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update Jadwal"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:backgroundTint="@color/colorAccent"
+        android:visibility="gone"
+        android:id="@+id/update_jadwal"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hapus Jadwal"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:backgroundTint="@color/colorAccent"
+        android:visibility="gone"
+        android:id="@+id/hapus_jadwal"/>
+
+
+</LinearLayout>

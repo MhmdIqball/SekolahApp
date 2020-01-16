@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".presensi.TambahPresensiActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mata Pelajaran"
+        android:id="@+id/tambah_presensi_mapel"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Kehadiran"
+        android:id="@+id/tambah_presensi_kehadiran"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tambah Presensi"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:backgroundTint="@color/colorAccent"
+        android:visibility="gone"
+        android:id="@+id/tambah_presensi"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update Presensi"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:backgroundTint="@color/colorAccent"
+        android:visibility="gone"
+        android:id="@+id/update_presensi"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hapus Presensi"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:backgroundTint="@color/colorAccent"
+        android:visibility="gone"
+        android:id="@+id/hapus_presensi"/>
+
+
+</LinearLayout>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".nilai.TambahNilaiActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Judul Nilai"
+        android:id="@+id/tambah_nilai_judulnilai"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mata Pelajaram"
+        android:id="@+id/tambah_nilai_mapel"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nilai"
+        android:id="@+id/tambah_nilai_nilai"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mata Pelajaran"
+        android:id="@+id/tambah_nilai_mapel2"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nilai"
+        android:id="@+id/tambah_nilai_nilai2"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mata Pelajaram"
+        android:id="@+id/tambah_nilai_mapel3"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nilai"
+        android:id="@+id/tambah_nilai_nilai3"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mata Pelajaram"
+        android:id="@+id/tambah_nilai_mapel4"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nilai"
+        android:id="@+id/tambah_nilai_nilai4"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tambah Nilai"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:backgroundTint="@color/colorAccent"
+        android:id="@+id/tambah_nilai"/>
+
+
+
+</LinearLayout>
